@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from "react";
 import {
@@ -40,7 +39,7 @@ function App() {
             <Route exact path="/">
               <Home></Home>
             </Route>
-            <Route path = '/post/:id'>
+            <Route path='/post/:id'>
               <PostDetail></PostDetail>
             </Route>
             <Route path="/about">
