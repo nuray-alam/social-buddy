@@ -9,7 +9,7 @@ const Post = (props) => {
         history.push(url);
     }
     return (
-        <div>
+        <div className='post'>
             <h3> <strong>ID: {id}</strong> Title: {title}</h3>
             <p>{body}</p>
             <button onClick={() => showComments(id)}>Show comments</button>
